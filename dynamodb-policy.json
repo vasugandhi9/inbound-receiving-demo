@@ -1,0 +1,13 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": ["dynamodb:PutItem", "dynamodb:UpdateItem", "dynamodb:ConditionCheckItem"],
+      "Resource": [
+        "arn:aws:dynamodb:ap-south-1:002639821269:table/processed-events",
+        "arn:aws:dynamodb:ap-south-1:002639821269:table/inventory"
+      ]
+    }
+  ]
+}
