@@ -1,2 +1,3 @@
 .venv/
 function.zip
+__pycache__/
